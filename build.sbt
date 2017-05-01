@@ -17,4 +17,4 @@ libraryDependencies ++= Seq(
 )
 
 // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.3"
+libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.3" % "org.postgresql" % "postgresql" % "9.4-1201-jdbc41"
